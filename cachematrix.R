@@ -14,6 +14,7 @@
 ## MakeCacheMatrix is the maker of a cached matrix object. To modify the matrix object itself
 ## X$set on the cached object  must used. this function checks for equiality. Using the naked 
 ## makeCacheMatrix will reset the cached object to another object, erasing its cache.
+## This is a modification of the vector example from the intro.
 
 makeCacheMatrix <- function(X = matrix()) {
     iM <- NULL
